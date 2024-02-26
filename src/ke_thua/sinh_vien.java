@@ -1,13 +1,13 @@
 package ke_thua;
 
-public class sinh_vien {
+public class Sinh_vien {
 	protected String id;
 	protected String name;
 	protected double price;
 	protected double tax;
 	 
 	
-	public sinh_vien(String id, String name, double price, double tax) {
+	public Sinh_vien(String id, String name, double price, double tax) {
 		super();
 		this.id = id;
 		this.name = name;

@@ -1,10 +1,10 @@
 package ke_thua;
 
-public class sinhvienIT extends sinh_vien {
+public class SinhvienIT extends Sinh_vien {
 
 
 	private String language;
-	public sinhvienIT(String language,String id, String name, double price, double tax) {
+	public SinhvienIT(String language,String id, String name, double price, double tax) {
 		super(id, name, price, tax);
 		// TODO Auto-generated constructor stub
 		this.language= language;
