@@ -4,6 +4,7 @@ public class Password {
     String Value;
     int Length;
 
+//    khai bao constractor
     public Password(String s) {
         Value = s;
         Length = s.length();

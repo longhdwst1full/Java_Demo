@@ -62,9 +62,9 @@ public class Generator {
 			int index = (int) (Math.random() * range) + min;
 			pass.append(alphabet.getAlphabet().charAt(index));
 		}
-Password result= new Password(pass.toString());
-System.out.println(result,"ddd");
-		return result
+		Password result = new Password(pass.toString());
+		System.out.println(result + "##################ddd");
+		return result;
 	}
 
 	private void printUsefulInfo() {
